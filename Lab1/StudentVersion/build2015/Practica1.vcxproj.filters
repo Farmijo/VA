@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\u93483\Desktop\StudentVersion\src\main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\u93483\Desktop\StudentVersion\src\Application.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\u93483\Desktop\StudentVersion\src\Camera.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\u93483\Desktop\StudentVersion\src\Maths.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\u93483\Desktop\StudentVersion\src\Mesh.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\u93483\Desktop\StudentVersion\src\Utils.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\u93483\Desktop\StudentVersion\src\includes.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\u93483\Desktop\StudentVersion\src\Application.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\u93483\Desktop\StudentVersion\src\Camera.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\u93483\Desktop\StudentVersion\src\Maths.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\u93483\Desktop\StudentVersion\src\Mesh.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\u93483\Desktop\StudentVersion\src\Utils.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\u93483\Desktop\StudentVersion\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{48223D8A-D90B-3053-B0F1-ED1CAC8F578B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{568FB301-6533-3BB1-AE6B-D56B80669AC1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
