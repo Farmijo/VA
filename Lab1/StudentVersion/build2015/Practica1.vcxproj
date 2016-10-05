@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{AE5E0090-1EBF-3D62-BBCB-508CC9C9A5E7}</ProjectGUID>
+    <ProjectGUID>{C98501D9-7514-320D-9810-8DD3788EF625}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>Practica1</ProjectName>
@@ -58,25 +58,25 @@
   <PropertyGroup Label="UserMacros" />
     <PropertyGroup>
       <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\u93483\Desktop\StudentVersion\build2015\Debug\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Fran\Desktop\StudentVersion\build2015\Debug\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Practica1.dir\Debug\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Practica1</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
       <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
       <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\u93483\Desktop\StudentVersion\build2015\Release\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Fran\Desktop\StudentVersion\build2015\Release\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Practica1.dir\Release\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Practica1</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</LinkIncremental>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
       <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\u93483\Desktop\StudentVersion\build2015\MinSizeRel\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Fran\Desktop\StudentVersion\build2015\MinSizeRel\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Practica1.dir\MinSizeRel\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Practica1</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</LinkIncremental>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
       <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\u93483\Desktop\StudentVersion\build2015\RelWithDebInfo\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Fran\Desktop\StudentVersion\build2015\RelWithDebInfo\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Practica1.dir\RelWithDebInfo\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Practica1</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
@@ -85,7 +85,7 @@
     </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\u93483\Desktop\StudentVersion\3rdParty\freeglut\include;C:\Users\u93483\Desktop\StudentVersion\3rdParty\GLEW\include;C:\Users\u93483\Desktop\StudentVersion\3rdParty\SDL2\include;C:\Users\u93483\Desktop\StudentVersion\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Fran\Desktop\StudentVersion\3rdParty\freeglut\include;C:\Users\Fran\Desktop\StudentVersion\3rdParty\GLEW\include;C:\Users\Fran\Desktop\StudentVersion\3rdParty\SDL2\include;C:\Users\Fran\Desktop\StudentVersion\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -102,10 +102,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\u93483\Desktop\StudentVersion\3rdParty\freeglut\include;C:\Users\u93483\Desktop\StudentVersion\3rdParty\GLEW\include;C:\Users\u93483\Desktop\StudentVersion\3rdParty\SDL2\include;C:\Users\u93483\Desktop\StudentVersion\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Fran\Desktop\StudentVersion\3rdParty\freeglut\include;C:\Users\Fran\Desktop\StudentVersion\3rdParty\GLEW\include;C:\Users\Fran\Desktop\StudentVersion\3rdParty\SDL2\include;C:\Users\Fran\Desktop\StudentVersion\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\u93483\Desktop\StudentVersion\3rdParty\freeglut\include;C:\Users\u93483\Desktop\StudentVersion\3rdParty\GLEW\include;C:\Users\u93483\Desktop\StudentVersion\3rdParty\SDL2\include;C:\Users\u93483\Desktop\StudentVersion\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Fran\Desktop\StudentVersion\3rdParty\freeglut\include;C:\Users\Fran\Desktop\StudentVersion\3rdParty\GLEW\include;C:\Users\Fran\Desktop\StudentVersion\3rdParty\SDL2\include;C:\Users\Fran\Desktop\StudentVersion\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -115,7 +115,7 @@
     <PostBuildEvent>
       <Message>		</Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/u93483/Desktop/StudentVersion/3rdParty/freeglut/bin/x86/freeglut.dll C:/Users/u93483/Desktop/StudentVersion/build2015/Debug
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Fran/Desktop/StudentVersion/3rdParty/freeglut/bin/x86/freeglut.dll C:/Users/Fran/Desktop/StudentVersion/build2015/Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -124,7 +124,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/u93483/Desktop/StudentVersion/3rdParty/GLEW/bin/x86/glew32.dll C:/Users/u93483/Desktop/StudentVersion/build2015/Debug
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Fran/Desktop/StudentVersion/3rdParty/GLEW/bin/x86/glew32.dll C:/Users/Fran/Desktop/StudentVersion/build2015/Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -133,7 +133,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/u93483/Desktop/StudentVersion/3rdParty/SDL2/bin/x86/SDL2.dll C:/Users/u93483/Desktop/StudentVersion/build2015/Debug
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Fran/Desktop/StudentVersion/3rdParty/SDL2/bin/x86/SDL2.dll C:/Users/Fran/Desktop/StudentVersion/build2015/Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -143,12 +143,13 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;opengl32.lib;glu32.lib;..\3rdParty\GLEW\lib\vc14\x86\glew32s.lib;..\3rdParty\SDL2\lib\vc14\x86\SDL2.lib;..\3rdParty\SDL2\lib\vc14\x86\SDL2main.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/u93483/Desktop/StudentVersion/build2015/Debug/Practica1.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/u93483/Desktop/StudentVersion/build2015/Debug/Practica1.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Fran/Desktop/StudentVersion/build2015/Debug/Practica1.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Fran/Desktop/StudentVersion/build2015/Debug/Practica1.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -158,7 +159,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\u93483\Desktop\StudentVersion\3rdParty\freeglut\include;C:\Users\u93483\Desktop\StudentVersion\3rdParty\GLEW\include;C:\Users\u93483\Desktop\StudentVersion\3rdParty\SDL2\include;C:\Users\u93483\Desktop\StudentVersion\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Fran\Desktop\StudentVersion\3rdParty\freeglut\include;C:\Users\Fran\Desktop\StudentVersion\3rdParty\GLEW\include;C:\Users\Fran\Desktop\StudentVersion\3rdParty\SDL2\include;C:\Users\Fran\Desktop\StudentVersion\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -174,10 +175,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\u93483\Desktop\StudentVersion\3rdParty\freeglut\include;C:\Users\u93483\Desktop\StudentVersion\3rdParty\GLEW\include;C:\Users\u93483\Desktop\StudentVersion\3rdParty\SDL2\include;C:\Users\u93483\Desktop\StudentVersion\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Fran\Desktop\StudentVersion\3rdParty\freeglut\include;C:\Users\Fran\Desktop\StudentVersion\3rdParty\GLEW\include;C:\Users\Fran\Desktop\StudentVersion\3rdParty\SDL2\include;C:\Users\Fran\Desktop\StudentVersion\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\u93483\Desktop\StudentVersion\3rdParty\freeglut\include;C:\Users\u93483\Desktop\StudentVersion\3rdParty\GLEW\include;C:\Users\u93483\Desktop\StudentVersion\3rdParty\SDL2\include;C:\Users\u93483\Desktop\StudentVersion\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Fran\Desktop\StudentVersion\3rdParty\freeglut\include;C:\Users\Fran\Desktop\StudentVersion\3rdParty\GLEW\include;C:\Users\Fran\Desktop\StudentVersion\3rdParty\SDL2\include;C:\Users\Fran\Desktop\StudentVersion\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -187,7 +188,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message>		</Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/u93483/Desktop/StudentVersion/3rdParty/freeglut/bin/x86/freeglut.dll C:/Users/u93483/Desktop/StudentVersion/build2015/Release
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Fran/Desktop/StudentVersion/3rdParty/freeglut/bin/x86/freeglut.dll C:/Users/Fran/Desktop/StudentVersion/build2015/Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -196,7 +197,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/u93483/Desktop/StudentVersion/3rdParty/GLEW/bin/x86/glew32.dll C:/Users/u93483/Desktop/StudentVersion/build2015/Release
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Fran/Desktop/StudentVersion/3rdParty/GLEW/bin/x86/glew32.dll C:/Users/Fran/Desktop/StudentVersion/build2015/Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -205,7 +206,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/u93483/Desktop/StudentVersion/3rdParty/SDL2/bin/x86/SDL2.dll C:/Users/u93483/Desktop/StudentVersion/build2015/Release
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Fran/Desktop/StudentVersion/3rdParty/SDL2/bin/x86/SDL2.dll C:/Users/Fran/Desktop/StudentVersion/build2015/Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -215,12 +216,13 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;opengl32.lib;glu32.lib;..\3rdParty\GLEW\lib\vc14\x86\glew32s.lib;..\3rdParty\SDL2\lib\vc14\x86\SDL2.lib;..\3rdParty\SDL2\lib\vc14\x86\SDL2main.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>No</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/u93483/Desktop/StudentVersion/build2015/Release/Practica1.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/u93483/Desktop/StudentVersion/build2015/Release/Practica1.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Fran/Desktop/StudentVersion/build2015/Release/Practica1.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Fran/Desktop/StudentVersion/build2015/Release/Practica1.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -230,7 +232,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\u93483\Desktop\StudentVersion\3rdParty\freeglut\include;C:\Users\u93483\Desktop\StudentVersion\3rdParty\GLEW\include;C:\Users\u93483\Desktop\StudentVersion\3rdParty\SDL2\include;C:\Users\u93483\Desktop\StudentVersion\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Fran\Desktop\StudentVersion\3rdParty\freeglut\include;C:\Users\Fran\Desktop\StudentVersion\3rdParty\GLEW\include;C:\Users\Fran\Desktop\StudentVersion\3rdParty\SDL2\include;C:\Users\Fran\Desktop\StudentVersion\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -246,10 +248,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\u93483\Desktop\StudentVersion\3rdParty\freeglut\include;C:\Users\u93483\Desktop\StudentVersion\3rdParty\GLEW\include;C:\Users\u93483\Desktop\StudentVersion\3rdParty\SDL2\include;C:\Users\u93483\Desktop\StudentVersion\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Fran\Desktop\StudentVersion\3rdParty\freeglut\include;C:\Users\Fran\Desktop\StudentVersion\3rdParty\GLEW\include;C:\Users\Fran\Desktop\StudentVersion\3rdParty\SDL2\include;C:\Users\Fran\Desktop\StudentVersion\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\u93483\Desktop\StudentVersion\3rdParty\freeglut\include;C:\Users\u93483\Desktop\StudentVersion\3rdParty\GLEW\include;C:\Users\u93483\Desktop\StudentVersion\3rdParty\SDL2\include;C:\Users\u93483\Desktop\StudentVersion\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Fran\Desktop\StudentVersion\3rdParty\freeglut\include;C:\Users\Fran\Desktop\StudentVersion\3rdParty\GLEW\include;C:\Users\Fran\Desktop\StudentVersion\3rdParty\SDL2\include;C:\Users\Fran\Desktop\StudentVersion\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -259,7 +261,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message>		</Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/u93483/Desktop/StudentVersion/3rdParty/freeglut/bin/x86/freeglut.dll C:/Users/u93483/Desktop/StudentVersion/build2015/MinSizeRel
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Fran/Desktop/StudentVersion/3rdParty/freeglut/bin/x86/freeglut.dll C:/Users/Fran/Desktop/StudentVersion/build2015/MinSizeRel
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -268,7 +270,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/u93483/Desktop/StudentVersion/3rdParty/GLEW/bin/x86/glew32.dll C:/Users/u93483/Desktop/StudentVersion/build2015/MinSizeRel
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Fran/Desktop/StudentVersion/3rdParty/GLEW/bin/x86/glew32.dll C:/Users/Fran/Desktop/StudentVersion/build2015/MinSizeRel
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -277,7 +279,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/u93483/Desktop/StudentVersion/3rdParty/SDL2/bin/x86/SDL2.dll C:/Users/u93483/Desktop/StudentVersion/build2015/MinSizeRel
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Fran/Desktop/StudentVersion/3rdParty/SDL2/bin/x86/SDL2.dll C:/Users/Fran/Desktop/StudentVersion/build2015/MinSizeRel
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -287,12 +289,13 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;opengl32.lib;glu32.lib;..\3rdParty\GLEW\lib\vc14\x86\glew32s.lib;..\3rdParty\SDL2\lib\vc14\x86\SDL2.lib;..\3rdParty\SDL2\lib\vc14\x86\SDL2main.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>No</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/u93483/Desktop/StudentVersion/build2015/MinSizeRel/Practica1.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/u93483/Desktop/StudentVersion/build2015/MinSizeRel/Practica1.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Fran/Desktop/StudentVersion/build2015/MinSizeRel/Practica1.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Fran/Desktop/StudentVersion/build2015/MinSizeRel/Practica1.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -302,7 +305,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\u93483\Desktop\StudentVersion\3rdParty\freeglut\include;C:\Users\u93483\Desktop\StudentVersion\3rdParty\GLEW\include;C:\Users\u93483\Desktop\StudentVersion\3rdParty\SDL2\include;C:\Users\u93483\Desktop\StudentVersion\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Fran\Desktop\StudentVersion\3rdParty\freeglut\include;C:\Users\Fran\Desktop\StudentVersion\3rdParty\GLEW\include;C:\Users\Fran\Desktop\StudentVersion\3rdParty\SDL2\include;C:\Users\Fran\Desktop\StudentVersion\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -318,10 +321,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\u93483\Desktop\StudentVersion\3rdParty\freeglut\include;C:\Users\u93483\Desktop\StudentVersion\3rdParty\GLEW\include;C:\Users\u93483\Desktop\StudentVersion\3rdParty\SDL2\include;C:\Users\u93483\Desktop\StudentVersion\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Fran\Desktop\StudentVersion\3rdParty\freeglut\include;C:\Users\Fran\Desktop\StudentVersion\3rdParty\GLEW\include;C:\Users\Fran\Desktop\StudentVersion\3rdParty\SDL2\include;C:\Users\Fran\Desktop\StudentVersion\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\u93483\Desktop\StudentVersion\3rdParty\freeglut\include;C:\Users\u93483\Desktop\StudentVersion\3rdParty\GLEW\include;C:\Users\u93483\Desktop\StudentVersion\3rdParty\SDL2\include;C:\Users\u93483\Desktop\StudentVersion\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Fran\Desktop\StudentVersion\3rdParty\freeglut\include;C:\Users\Fran\Desktop\StudentVersion\3rdParty\GLEW\include;C:\Users\Fran\Desktop\StudentVersion\3rdParty\SDL2\include;C:\Users\Fran\Desktop\StudentVersion\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -331,7 +334,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message>		</Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/u93483/Desktop/StudentVersion/3rdParty/freeglut/bin/x86/freeglut.dll C:/Users/u93483/Desktop/StudentVersion/build2015/RelWithDebInfo
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Fran/Desktop/StudentVersion/3rdParty/freeglut/bin/x86/freeglut.dll C:/Users/Fran/Desktop/StudentVersion/build2015/RelWithDebInfo
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -340,7 +343,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/u93483/Desktop/StudentVersion/3rdParty/GLEW/bin/x86/glew32.dll C:/Users/u93483/Desktop/StudentVersion/build2015/RelWithDebInfo
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Fran/Desktop/StudentVersion/3rdParty/GLEW/bin/x86/glew32.dll C:/Users/Fran/Desktop/StudentVersion/build2015/RelWithDebInfo
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -349,7 +352,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/u93483/Desktop/StudentVersion/3rdParty/SDL2/bin/x86/SDL2.dll C:/Users/u93483/Desktop/StudentVersion/build2015/RelWithDebInfo
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Fran/Desktop/StudentVersion/3rdParty/SDL2/bin/x86/SDL2.dll C:/Users/Fran/Desktop/StudentVersion/build2015/RelWithDebInfo
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -359,12 +362,13 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;opengl32.lib;glu32.lib;..\3rdParty\GLEW\lib\vc14\x86\glew32s.lib;..\3rdParty\SDL2\lib\vc14\x86\SDL2.lib;..\3rdParty\SDL2\lib\vc14\x86\SDL2main.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/u93483/Desktop/StudentVersion/build2015/RelWithDebInfo/Practica1.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/u93483/Desktop/StudentVersion/build2015/RelWithDebInfo/Practica1.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Fran/Desktop/StudentVersion/build2015/RelWithDebInfo/Practica1.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Fran/Desktop/StudentVersion/build2015/RelWithDebInfo/Practica1.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -373,10 +377,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\u93483\Desktop\StudentVersion\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/u93483/Desktop/StudentVersion/CMakeLists.txt</Message>
+    <CustomBuild Include="C:\Users\Fran\Desktop\StudentVersion\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Fran/Desktop/StudentVersion/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/u93483/Desktop/StudentVersion -BC:/Users/u93483/Desktop/StudentVersion/build2015 --check-stamp-file C:\Users\u93483\Desktop\StudentVersion\build2015\CMakeFiles\generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Fran/Desktop/StudentVersion -BC:/Users/Fran/Desktop/StudentVersion/build2015 --check-stamp-file C:\Users\Fran\Desktop\StudentVersion\build2015\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -384,12 +388,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/u93483/Desktop/StudentVersion/CMakeLists.txt;C:\Users\u93483\Desktop\StudentVersion\CMakeLists.txt;C:\Users\u93483\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompiler.cmake.in;C:\Users\u93483\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeCCompiler.cmake;C:\Users\u93483\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Users\u93483\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompiler.cmake.in;C:\Users\u93483\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\u93483\Desktop\StudentVersion\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\u93483\Desktop\StudentVersion\build2015\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Fran/Desktop/StudentVersion/CMakeLists.txt;C:\Users\Fran\Desktop\StudentVersion\CMakeLists.txt;C:\Users\Fran\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Fran\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeCCompiler.cmake;C:\Users\Fran\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Users\Fran\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Fran\Desktop\StudentVersion\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Fran\Desktop\StudentVersion\build2015\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/u93483/Desktop/StudentVersion/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Fran/Desktop/StudentVersion/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/u93483/Desktop/StudentVersion -BC:/Users/u93483/Desktop/StudentVersion/build2015 --check-stamp-file C:\Users\u93483\Desktop\StudentVersion\build2015\CMakeFiles\generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Fran/Desktop/StudentVersion -BC:/Users/Fran/Desktop/StudentVersion/build2015 --check-stamp-file C:\Users\Fran\Desktop\StudentVersion\build2015\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -397,12 +401,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/u93483/Desktop/StudentVersion/CMakeLists.txt;C:\Users\u93483\Desktop\StudentVersion\CMakeLists.txt;C:\Users\u93483\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompiler.cmake.in;C:\Users\u93483\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeCCompiler.cmake;C:\Users\u93483\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Users\u93483\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompiler.cmake.in;C:\Users\u93483\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\u93483\Desktop\StudentVersion\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\u93483\Desktop\StudentVersion\build2015\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Fran/Desktop/StudentVersion/CMakeLists.txt;C:\Users\Fran\Desktop\StudentVersion\CMakeLists.txt;C:\Users\Fran\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Fran\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeCCompiler.cmake;C:\Users\Fran\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Users\Fran\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Fran\Desktop\StudentVersion\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Fran\Desktop\StudentVersion\build2015\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/u93483/Desktop/StudentVersion/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Fran/Desktop/StudentVersion/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/u93483/Desktop/StudentVersion -BC:/Users/u93483/Desktop/StudentVersion/build2015 --check-stamp-file C:\Users\u93483\Desktop\StudentVersion\build2015\CMakeFiles\generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Fran/Desktop/StudentVersion -BC:/Users/Fran/Desktop/StudentVersion/build2015 --check-stamp-file C:\Users\Fran\Desktop\StudentVersion\build2015\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -410,12 +414,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/u93483/Desktop/StudentVersion/CMakeLists.txt;C:\Users\u93483\Desktop\StudentVersion\CMakeLists.txt;C:\Users\u93483\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompiler.cmake.in;C:\Users\u93483\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeCCompiler.cmake;C:\Users\u93483\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Users\u93483\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompiler.cmake.in;C:\Users\u93483\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\u93483\Desktop\StudentVersion\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\u93483\Desktop\StudentVersion\build2015\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Fran/Desktop/StudentVersion/CMakeLists.txt;C:\Users\Fran\Desktop\StudentVersion\CMakeLists.txt;C:\Users\Fran\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Fran\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeCCompiler.cmake;C:\Users\Fran\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Users\Fran\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Fran\Desktop\StudentVersion\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Fran\Desktop\StudentVersion\build2015\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/u93483/Desktop/StudentVersion/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Fran/Desktop/StudentVersion/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/u93483/Desktop/StudentVersion -BC:/Users/u93483/Desktop/StudentVersion/build2015 --check-stamp-file C:\Users\u93483\Desktop\StudentVersion\build2015\CMakeFiles\generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Fran/Desktop/StudentVersion -BC:/Users/Fran/Desktop/StudentVersion/build2015 --check-stamp-file C:\Users\Fran\Desktop\StudentVersion\build2015\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -423,28 +427,28 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/u93483/Desktop/StudentVersion/CMakeLists.txt;C:\Users\u93483\Desktop\StudentVersion\CMakeLists.txt;C:\Users\u93483\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompiler.cmake.in;C:\Users\u93483\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeCCompiler.cmake;C:\Users\u93483\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Users\u93483\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompiler.cmake.in;C:\Users\u93483\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\u93483\Desktop\StudentVersion\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\u93483\Desktop\StudentVersion\build2015\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Fran/Desktop/StudentVersion/CMakeLists.txt;C:\Users\Fran\Desktop\StudentVersion\CMakeLists.txt;C:\Users\Fran\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Fran\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeCCompiler.cmake;C:\Users\Fran\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Users\Fran\Desktop\StudentVersion\build2015\CMakeFiles\3.6.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Fran\Desktop\StudentVersion\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Fran\Desktop\StudentVersion\build2015\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\u93483\Desktop\StudentVersion\src\includes.h" />
-    <ClInclude Include="C:\Users\u93483\Desktop\StudentVersion\src\Application.h" />
-    <ClInclude Include="C:\Users\u93483\Desktop\StudentVersion\src\Camera.h" />
-    <ClInclude Include="C:\Users\u93483\Desktop\StudentVersion\src\Maths.h" />
-    <ClInclude Include="C:\Users\u93483\Desktop\StudentVersion\src\Mesh.h" />
-    <ClInclude Include="C:\Users\u93483\Desktop\StudentVersion\src\Utils.h" />
-    <ClCompile Include="C:\Users\u93483\Desktop\StudentVersion\src\main.cpp"  />
-    <ClCompile Include="C:\Users\u93483\Desktop\StudentVersion\src\Application.cpp"  />
-    <ClCompile Include="C:\Users\u93483\Desktop\StudentVersion\src\Camera.cpp"  />
-    <ClCompile Include="C:\Users\u93483\Desktop\StudentVersion\src\Maths.cpp"  />
-    <ClCompile Include="C:\Users\u93483\Desktop\StudentVersion\src\Mesh.cpp"  />
-    <ClCompile Include="C:\Users\u93483\Desktop\StudentVersion\src\Utils.cpp"  />
+    <ClInclude Include="C:\Users\Fran\Desktop\StudentVersion\src\includes.h" />
+    <ClInclude Include="C:\Users\Fran\Desktop\StudentVersion\src\Application.h" />
+    <ClInclude Include="C:\Users\Fran\Desktop\StudentVersion\src\Camera.h" />
+    <ClInclude Include="C:\Users\Fran\Desktop\StudentVersion\src\Maths.h" />
+    <ClInclude Include="C:\Users\Fran\Desktop\StudentVersion\src\Mesh.h" />
+    <ClInclude Include="C:\Users\Fran\Desktop\StudentVersion\src\Utils.h" />
+    <ClCompile Include="C:\Users\Fran\Desktop\StudentVersion\src\main.cpp"  />
+    <ClCompile Include="C:\Users\Fran\Desktop\StudentVersion\src\Application.cpp"  />
+    <ClCompile Include="C:\Users\Fran\Desktop\StudentVersion\src\Camera.cpp"  />
+    <ClCompile Include="C:\Users\Fran\Desktop\StudentVersion\src\Maths.cpp"  />
+    <ClCompile Include="C:\Users\Fran\Desktop\StudentVersion\src\Mesh.cpp"  />
+    <ClCompile Include="C:\Users\Fran\Desktop\StudentVersion\src\Utils.cpp"  />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:/Users/u93483/Desktop/StudentVersion/build2015/ZERO_CHECK.vcxproj">
-      <Project>39A0FDF8-AD74-3604-A8BA-3B310E2ECD76</Project>
+    <ProjectReference Include="C:/Users/Fran/Desktop/StudentVersion/build2015/ZERO_CHECK.vcxproj">
+      <Project>B891CB7D-CA9C-399A-A332-2081E849930A</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

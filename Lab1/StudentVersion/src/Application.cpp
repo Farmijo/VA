@@ -79,7 +79,18 @@ void Application::update( float seconds_elapsed )
 	
 	if( mouse_state & SDL_BUTTON(SDL_BUTTON_LEFT) ) //is left button pressed?
 	{
-		// to complete
+		//camera->rotate(speed * mouse_delta.x * 0.001, Vector3(0, -1, 0)); //Horizontal axis
+		camera->rotate(speed * mouse_delta.y * 0.001,(Vector3(-1, 0, 0))); // Vertical axis
+	}
+
+	if (mouse_state & SDL_BUTTON(SDL_BUTTON_RIGHT)) //is right button pressed?
+	{
+
+		//camera->rotate(speed * mouse_delta.x * 0.001, Vector3(0, -1, 0));
+		//camera->rotate(speed * mouse_delta.y * 0.001, camera->getLocalVector(Vector3(-1, 0, 0)));
+
+
+
 	}
 	
 	if( keystate[ SDL_SCANCODE_LSHIFT ] ) speed *= 10; //move faster with left shift

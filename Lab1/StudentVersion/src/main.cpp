@@ -78,6 +78,10 @@ void mainLoop()
 	SDL_Event sdlEvent;
 	int x, y;
 
+
+	SDL_GetMouseState(&x, &y);
+	g_oApplication->mouse_position.set(x, y);
+
 	// EXERCISE PRACT 1
 
 	while( 1 )
@@ -115,10 +119,17 @@ void mainLoop()
 
 		//get mouse position and delta (do after pump events)
 		// EXERCISE PRACT 1
-		SDL_GetMouseState(&x, &y);
 
 
-		std::cout << x << ","<< y << std::endl;
+		//std::cout << g_oApplication->mouse_position.x <<"    "<< g_oApplication->mouse_position.y<< std::endl;
+
+
+		g_oApplication->mouse_state = SDL_GetMouseState(&x, &y);
+		g_oApplication->mouse_delta.set(g_oApplication->mouse_position.x - x, g_oApplication->mouse_position.y - y);
+		g_oApplication->mouse_position.set(x, y);
+
+		//std::cout << g_oApplication->mouse_delta.x << "         " << g_oApplication->mouse_delta.y << std::endl;
+
 
 
 		//update logic
@@ -127,6 +138,9 @@ void mainLoop()
 		last_time = now;
 		g_oApplication->time = float( now ) * 0.001f;
 		g_oApplication->update( elapsed_time );
+
+
+
 
 		//check errors in opengl only when working in debug
 #ifdef _DEBUG

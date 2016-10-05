@@ -50,19 +50,29 @@ void Camera::updateProjectionMatrix()
 
 Vector3 Camera::getLocalVector( const Vector3& v )
 {
-	// EXERCISE PRACT 1
+	Matrix44 iV = view_matrix;
+	if (iV.inverse() == false)
+		std::cout << "Matrix Inverse error" << std::endl;
+	Vector3 result = iV.rotateVector(v);
+	return result;
 
-	return v;
 }
 
 void Camera::move( Vector3 delta )
 {
-	// EXERCISE PRACT 1
+	Vector3 localDelta = getLocalVector(delta);
+	eye = eye - localDelta;
+	center = center - localDelta;
+	updateViewMatrix();
 }
 
 void Camera::rotate( float angle, const Vector3& axis )
 {
-	// EXERCISE PRACT 1
+	Matrix44 R;
+	R.setRotation(angle, axis);
+	Vector3 new_front = R * (center - eye);
+	center = eye + new_front;
+	updateViewMatrix();
 }
 
 void Camera::setOrthographic( float left, float right, float bottom, float top, float near_plane, float far_plane )

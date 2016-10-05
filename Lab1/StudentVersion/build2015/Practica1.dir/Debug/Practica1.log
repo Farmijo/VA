@@ -1,2 +1,8 @@
-﻿  main.cpp
-  Practica1.vcxproj -> C:\Users\u93483\Desktop\StudentVersion\build2015\Debug\Practica1.exe
+﻿  Application.cpp
+C:\Users\Fran\Desktop\StudentVersion\src\Application.cpp(83): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Fran\Desktop\StudentVersion\src\Application.cpp(89): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Fran\Desktop\StudentVersion\src\Application.cpp(90): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+  Camera.cpp
+  Generando código...
+  Practica1.vcxproj -> C:\Users\Fran\Desktop\StudentVersion\build2015\Debug\Practica1.exe
+  Practica1.vcxproj -> C:/Users/Fran/Desktop/StudentVersion/build2015/Debug/Practica1.pdb (Full PDB)
