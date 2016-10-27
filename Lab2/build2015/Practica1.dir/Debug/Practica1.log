@@ -1,0 +1,4 @@
+﻿  Mesh.cpp
+C:\Users\Fran\Desktop\StudentVersion\src\Mesh.cpp(300): error C3861: 'addCurrentPath': no se encontró el identificador
+C:\Users\Fran\Desktop\StudentVersion\src\Mesh.cpp(300): error C2228: el operando izquierdo de '.c_str' debe tener class/struct/union
+  C:\Users\Fran\Desktop\StudentVersion\src\Mesh.cpp(300): note: el tipo es 'unknown-type'
