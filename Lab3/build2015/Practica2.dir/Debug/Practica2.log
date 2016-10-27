@@ -1,0 +1,18 @@
+﻿  Application.cpp
+C:\Users\Fran\Desktop\StudentVersion\src\Application.cpp(12): warning C4838: la conversión de 'double' en 'float' requiere una conversión de restricción
+C:\Users\Fran\Desktop\StudentVersion\src\Application.cpp(12): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\Fran\Desktop\StudentVersion\src\Application.cpp(99): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Fran\Desktop\StudentVersion\src\Application.cpp(100): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Fran\Desktop\StudentVersion\src\Application.cpp(106): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\Fran\Desktop\StudentVersion\src\Application.cpp(107): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  Mesh.cpp
+C:\Users\Fran\Desktop\StudentVersion\src\Mesh.cpp(331): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Fran\Desktop\StudentVersion\src\Mesh.cpp(332): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Fran\Desktop\StudentVersion\src\Mesh.cpp(333): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Fran\Desktop\StudentVersion\src\Mesh.cpp(378): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Fran\Desktop\StudentVersion\src\Mesh.cpp(379): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Fran\Desktop\StudentVersion\src\Mesh.cpp(380): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Fran\Desktop\StudentVersion\src\Mesh.cpp(417): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+  Generando código...
+  Practica2.vcxproj -> C:\Users\Fran\Desktop\StudentVersion\build2015\Debug\Practica2.exe
+  Practica2.vcxproj -> C:/Users/Fran/Desktop/StudentVersion/build2015/Debug/Practica2.pdb (Full PDB)

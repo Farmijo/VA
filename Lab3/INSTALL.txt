@@ -1,0 +1,19 @@
+Getting Started
+===============
+You will need to use CMake to build the appropriate project/makefiles for your target environment. 
+
+e.g. Windows
+1. Goto .\advanced-visualisation-p1
+2. Run mkdir build2015
+3. Run cd build2015
+4. Run cmake -G "Visual Studio 14" ../.
+5. Open the solution and build
+
+e.g. Linux
+1. Goto ./advanced-visualisation-p1
+2. Run 
+	$ cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release .
+3. Run
+	$ make
+
+	
